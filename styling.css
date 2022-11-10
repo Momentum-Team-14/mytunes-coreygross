@@ -1,0 +1,82 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    border: solid;
+    border-radius: 50px;
+    text-align: center;
+    width: 300px;
+    margin-left: 40%;
+    height: fit-content;
+    background-color: rgb(245, 220, 240);
+
+}
+
+
+#results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.searchResults{
+    border: solid;
+    border-radius: 50px;
+    text-align: center;
+    height: fit-content;
+    width: 250px;
+    background-color: rgb(245, 220, 240);
+    margin: 30px;
+}
+
+
+.searchBox{
+    width: 100%;
+    margin-left: 40%;
+}
+
+
+
+.searchResults:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.songTitle{
+    font-weight: bold;
+    text-align: center;    
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+}
+
+.bandName{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    padding: 10px;
+}
+
+form input{
+    padding: 15px;
+    background-color: rgb(245, 220, 240);
+    border-radius: 20px;
+    width: 200px;
+
+}
+
+audio{
+   transform: scale(.65, .65);
+   margin: -50px;
+}
+
+
+form button{
+    background-color: rgb(245, 220, 240);
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
